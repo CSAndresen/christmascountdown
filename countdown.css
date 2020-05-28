@@ -1,0 +1,43 @@
+main {
+    text-align: center;
+    line-break: strict;
+    word-break: break-word;
+    font-family: 'Mountains of Christmas', cursive;
+}
+
+#timerbox {
+    margin: 100px 0;
+}
+
+#title, #timeleft {
+    font-size: 100px;
+    margin: 0;
+}
+
+#countdown1, #countdown2 {
+    font-size: 150px;
+    margin: 0;
+}
+
+#christmas {
+    font-size: 200px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0px;
+    font-family: 'Mountains of Christmas', cursive;
+    font-size: 25px;
+}
+
+@media screen and (max-width: 1000px) {
+    #title, #timeleft {
+        font-size: 25px;
+    }
+    #countdown1, #countdown2 {
+        font-size: 50px;
+    }
+    #christmas {
+        font-size: 70px;
+    }
+}
